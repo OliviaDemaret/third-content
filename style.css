@@ -1,6 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;700;800;900&display=swap);
 body {
-  background-color: rgb(224, 232, 255);
+  background-color: #0099ff;
+  background-image: url(wave.svg),
+    linear-gradient(
+      to top,
+      #0099ff 0%,
+      #0099ff 60%,
+      rgb(80, 32, 80),
+      rgb(224, 232, 255)
+    );
+  background-repeat: repeat-x;
   font-family: "League Spartan";
 }
 .div-zero {
